@@ -10,7 +10,7 @@ from PIL import PngImagePlugin
 
 pdf_path = input("Enter the pdf file path: ")
 
-poppler_path = r"J:\poppler-21.11.0\Library\bin"
+poppler_path = r""
 
 print("Extracting images ...")
 images:list[PngImagePlugin.PngImageFile] = convert_from_path(
