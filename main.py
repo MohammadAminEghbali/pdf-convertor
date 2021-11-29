@@ -9,6 +9,7 @@ from pdf2image import convert_from_path
 from PIL import PngImagePlugin
 
 pdf_path = input("Enter the pdf file path: ")
+output_filename = input("Enter the output file name: ")
 
 poppler_path = r""
 
