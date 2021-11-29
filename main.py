@@ -31,6 +31,6 @@ for image in images:
                 pixls[x, y] = (0, 0, 0)
 
 print("Saving images ...")
-images[0].save("x.pdf", save_all=True, append_images=images)
+images[0].save(output_filename, save_all=True, append_images=images)
 print("App finished")
     
